@@ -1,0 +1,131 @@
+.pull-me{
+    color: #8e8e8e;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.bookmark{
+    height: 15px;
+    width: 30px;
+}
+
+.umbrella-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.devices-img{
+    width: 100px;
+    height: 100px;
+}
+
+.green-text{
+    color: #a0c63f;
+}
+
+.nav-link{
+    color: black;
+}
+
+a:hover{
+    color: #a0c63f;
+}
+
+.main-header{
+    padding-bottom: 10px;
+}
+
+.main{
+    background-color: #f8f8f8;
+}
+
+.carousel{
+    background-color: #a0c63f;
+}
+
+.devices-img{
+    height: 100px;
+    width: 100px;
+}
+
+.welcome{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pro{
+    padding: 20px;
+}
+
+.pro-img{
+    height: 100px;
+    width: 100px;
+    background-color: #a0c63f;
+    padding: 10px;
+    border-radius: 100px;
+    border: 10px solid white;
+}
+
+.recent{
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+}
+
+.card-pic{
+    width: 45%;
+    padding-right: 20px;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-text{
+    width: 50%;
+    font-size: 15px;
+}
+
+.ad-head{
+    margin: 20px;
+
+}
+
+.cards-button{
+    background-color: #a0c63f;
+    margin: 2px;
+    color: white;
+}
+
+.about-us-text{
+    font-size: 12px;
+}
+
+.social-media{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.date{
+    border-bottom: gray dotted 2px;
+    padding-bottom: 5px;
+}
+
+.footer-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.subscribe{
+    background-color: #a0c63f;
+    margin: 2px;
+    color: white;
+}
