@@ -21,7 +21,7 @@
 <body>
     <header>
         <section class="container-fluid top-header">
-            <div class="top-header row justify-content-end">
+            <div class="top-header row justify-content-end"><!-- this works, however, you could target .top-header and give it display: flex rather than use a bootsrap row where it may not be needed -->
                 <p class="pull-me">pull me</p>
                 <img src="media/bookmark.png" alt="bookmark" class="bookmark">
             </div>
@@ -54,6 +54,7 @@
     <main class="main">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
+                <!-- why did you use an ol rather than a ul-->
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
@@ -92,10 +93,12 @@
           </div>
         </section>
         <div class="container-fluid d-flex justify-content-center">
+            <!-- simply use text-center on the text to center it; also that would be an h2 rather than an h3 -->
             <h3 class="welcome">welcome to <span class="green-text">elegantica</span> - a minimal buisness theme </h3>
         </div>
         <section class="pros container-fluid d-flex justify-content-center">
             <div class="row">
+                <!--Here, you're making divs and giving them flex properties. Why not use .cols?? -->
                 <div class="d-flex flex-column justify-content-center pro">
                     <img src="media/hammer.png" alt="hammer" class="hammer pro-img" />
                     <h2>AMAZING</h2>
